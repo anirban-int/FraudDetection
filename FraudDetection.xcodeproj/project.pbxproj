@@ -17,6 +17,9 @@
 		FD7648882A68058E00B08513 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD7648862A68058E00B08513 /* Main.storyboard */; };
 		FD76488A2A68058F00B08513 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD7648892A68058F00B08513 /* Assets.xcassets */; };
 		FD76488D2A68058F00B08513 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD76488B2A68058F00B08513 /* LaunchScreen.storyboard */; };
+		FD7648982A68172E00B08513 /* FraudDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7648972A68172E00B08513 /* FraudDetection.swift */; };
+		FD76489A2A68177900B08513 /* SwiftLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7648992A68177900B08513 /* SwiftLibTests.swift */; };
+		FD76489B2A681ACE00B08513 /* FraudDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7648972A68172E00B08513 /* FraudDetection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,8 @@
 		FD7648892A68058F00B08513 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD76488C2A68058F00B08513 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD76488E2A68058F00B08513 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD7648972A68172E00B08513 /* FraudDetection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FraudDetection.swift; sourceTree = "<group>"; };
+		FD7648992A68177900B08513 /* SwiftLibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLibTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +101,7 @@
 			children = (
 				FD7648432A6803C900B08513 /* FraudDetection.h */,
 				FD7648442A6803C900B08513 /* FraudDetection.docc */,
+				FD7648972A68172E00B08513 /* FraudDetection.swift */,
 			);
 			path = FraudDetection;
 			sourceTree = "<group>";
@@ -104,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				FD76484F2A6803C900B08513 /* FraudDetectionTests.swift */,
+				FD7648992A68177900B08513 /* SwiftLibTests.swift */,
 			);
 			path = FraudDetectionTests;
 			sourceTree = "<group>";
@@ -263,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD7648452A6803C900B08513 /* FraudDetection.docc in Sources */,
+				FD7648982A68172E00B08513 /* FraudDetection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +278,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD76489B2A681ACE00B08513 /* FraudDetection.swift in Sources */,
 				FD7648502A6803C900B08513 /* FraudDetectionTests.swift in Sources */,
+				FD76489A2A68177900B08513 /* SwiftLibTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,6 +509,7 @@
 		FD7648582A6803C900B08513 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GKA2LXKM24;
@@ -515,6 +526,7 @@
 		FD7648592A6803C900B08513 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GKA2LXKM24;
